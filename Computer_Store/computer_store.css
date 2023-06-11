@@ -1,0 +1,11 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color:aliceblue;
+}
+#store{
+    position:absolute;
+    border:10px solid black;
+    padding:50px;
+    margin:150px 360px;
+    box-shadow:4px 4px 4px 4px;
+}
