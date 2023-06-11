@@ -1,0 +1,57 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:lightgray;
+}
+h1{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    gap:10px;
+    width:200px;
+    height:200px;
+    
+    border:10px;
+    
+    padding:40px;
+    margin:200px auto;
+}
+.block{
+    border:10px ridge black;
+    position: absolute;
+}
+.first{
+    /* background-image:url("blue.png"); */
+    /* background-color: blue; */
+    width:200px;
+    height:200px;
+}
+.second{
+    /* background-image: url("red.jpg"); */
+    width:180px;
+    height:180px;
+}
+.third{
+    /* background-image: url("skyblue.png"); */
+    width:160px;
+    height:160px;
+}
+.fourth{
+    /* background-image: url("yellow.png"); */
+    width:140px;
+    height:140px;
+}
+.fifth{
+    /* background-image: url("skin_color.png"); */
+    /* background-color: burlywood; */
+    width:120px;
+    height:120px;
+}
+button{
+    width:100px;
+    height: 50px;
+    position: relative;
+    bottom: 160px;
+    background-color: rgb(9, 214, 98);
+}
