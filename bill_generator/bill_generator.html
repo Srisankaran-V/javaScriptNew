@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill_generator.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Order_Form</h1>
+    <div class="container">
+        <label for="cities">
+            <select name="cities" id="cities" onchange="generate_input()" >
+                <option selected disabled>select city</option>
+                <option value="chennai">chennai</option>
+                <option value="coimbatore">coimbatore</option>
+                <option value="madurai">madurai</option>
+                <option value="salem">salem</option>
+                <option value="tiruchy">tiruchy</option>
+                <option value="thoothukudi">thoothukudi</option>
+            </select>
+        </label>
+        <div id="input_container"></div>
+    </div>
+    <script src="bill_generator.js"></script>
+</body>
+</html>
