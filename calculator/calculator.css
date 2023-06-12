@@ -1,0 +1,35 @@
+#grid-container{
+    display:inline-grid;
+    width: 400px;
+    grid-template-columns: 80px 80px 80px 80px 80px ;
+    padding: 10px;
+    border-radius: 25px;
+}
+.grid-item{
+    font-size:medium;
+    text-align: center;
+    border-style:solid;
+    border-width:2px;
+    width: 3px;
+    padding: 20px;
+    margin: 8px;    
+}
+.calculator-container{
+    margin: auto;
+    width: 20%;
+}
+#input_box{
+   
+    width: 380px;
+    height: 18px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: lightgrey;
+    color:black;
+    padding:15px;
+    text-align: right;
+    margin-top:30px;
+    font-weight: bolder;
+    font-size: larger;
+}
+

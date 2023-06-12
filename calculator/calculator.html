@@ -1,0 +1,39 @@
+
+
+
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    </head>
+<body>
+    <div class="calculator-container">
+        <p id="input_box" value="" type="text"></p>
+        <p id="answer"></p>
+
+        <div id="grid-container">
+            <p onclick="squr()" class="grid-item">x²</p>
+            <p onclick="cube()" class="grid-item">x³</p>
+            <p onclick="all_clear()" class="grid-item" id="ac">AC</p>
+            <p onclick="back_space()" class="grid-item" id="mul">←</p>
+            <p onclick="input_fun2('.')" class="grid-item" id="dot">.</p>
+            <p onclick="input_fun(5)" class="grid-item" id="5">5</p>
+            <p onclick="input_fun(6)" class="grid-item" id="6">6</p>
+            <p onclick="input_fun(7)" class="grid-item" id="7">7</p>
+            <p onclick="input_fun(8)" class="grid-item" id="8">8</p>
+            <p onclick="input_fun(9)" class="grid-item" id="9">9</p> 
+            <p onclick="input_fun1(0)" class="grid-item" id="zero">0</p>
+            <p onclick="input_fun(1)" class="grid-item" id="1">1</p>
+            <p onclick="input_fun(2)" class="grid-item" id="2">2</p>
+            <p onclick="input_fun(3)" class="grid-item" id="3">3</p>
+            <p onclick="input_fun(4)" class="grid-item" id="4">4</p>
+            <p onclick="input_fun2('-')" class="grid-item" id="minus">-</p>
+            <p onclick="input_fun2('+')" class="grid-item" id="add">+</p>
+            <p onclick="input_fun2('*')" class="grid-item" id="mul">x</p>
+            <p onclick="input_fun2('/')" class="grid-item" id="divide">/</p>
+            <p onclick="evaluate_ex()" class="grid-item" id="equal">=</p>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
