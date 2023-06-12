@@ -1,0 +1,38 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:aliceblue;
+    color:darkolivegreen;
+}
+.Whole_Container{
+    display:flex;
+    justify-content:space-around;
+    gap:50px;
+    flex-wrap: wrap;
+}
+h1{
+    margin-left:490px;
+}
+table,tr,th,td{
+    border:1px dotted black;
+    padding:10px;
+}
+table{
+    margin:0 auto;
+    padding: 10px;
+    border:10px ridge black;
+}
+button{
+    display:block;
+    margin-left:600px;
+    padding:10px;
+}
+input{
+    border:transparent;
+    padding:10px;
+    border-bottom: 1px solid black;
+}
+input:hover{
+    background-color: palegoldenrod;
+    /* border:transparent;
+    border-bottom: 1px solid black; */
+}

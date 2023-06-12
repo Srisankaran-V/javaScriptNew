@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>electronic bill</title>
+<link rel="stylesheet" href="electronic_bill.css">
+</head>
+
+<body>
+    <div id="container">
+             <table>
+                <tr>
+                    <td>Consumed Units</td>
+                    <td><input type="text" id="units" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Total Current Charges Rs.</td>
+                    <td><input type="text" id="T_c_c"></td> 
+                </tr>
+                <tr>
+                    <td>Current Charges Rs.</td>
+                    <td><input type="text" id="c_c"></td>
+                </tr>
+                <tr>
+                    <td>Fixed Cost Rs.(+)</td>
+                    <td><input type="text" id="fixed_cost" readonly></td>
+                </tr>
+                <tr>
+                    <td>Subsidy Fixed Cost Rs.(-)</td>
+                    <td><input type="text" id="subsidy_fixed_cost" value="0" readonly></td>
+                </tr>
+                <tr>
+                    <td>New Subsidy Rs.(-)</td>
+                    <td><input type="text" id="new_subsidy" value="0" readonly></td>
+                </tr>
+                <tr>
+                    <td>Net Amount Rs.</td>
+                    <td><input type="text" id="net_amount" value="0"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="container1">
+        <button id="button1"> submit</button>
+        </div>
+</body>
