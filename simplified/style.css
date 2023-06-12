@@ -1,0 +1,27 @@
+*{
+    background-color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color:azure;
+    padding:20px;
+    align-items:center;
+    position:absolute;
+    margin:100px 500px;
+}
+p,input{
+    background-color: transparent;
+}
+button{
+    padding:10px;
+}
+input{
+    border:1px lightblue;
+    padding:10px;
+}
+input:hover{
+    border:1px red;
+}
