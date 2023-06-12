@@ -1,0 +1,35 @@
+*{
+    margin : 2px;
+    text-size-adjust: 20px;
+    font-family: 'Courier ', Courier;
+    
+   
+}
+
+select{
+    border : 5px ridge;
+    background-color: white;
+}
+#homedelivery{
+    border :4px ridge;
+
+}
+
+#final_output{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    color : white ;
+    background-color: green;
+}
+
+h3{
+    text-size-adjust: 20px;
+    background-color: aqua;
+
+   
+    text-align: center;
+}

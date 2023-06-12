@@ -1,0 +1,48 @@
+*{
+    background-color:lightcyan;
+    color:slategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+select{
+    border:8px ridge;
+}
+.first_block{
+    margin-left: 400px;
+    padding:50px;
+    height: 799px;
+    width:799px;
+    background-color:thistle;
+    border-radius: 78px solid;
+    border-style: groove;
+    text-align: center;    
+}
+/* input,button{
+    border-block-color: mediumseagreen;
+    border-inline-color: purple;
+    border-inline-style: ridge;
+} */
+p,h5,.second_block,.third_block,.fourth_block,.fifth_block,.sixth_block{
+    background-color: transparent;
+}
+button{
+    padding:10px;
+}
+input{
+    padding: 10px;
+}
+.fourth_block{
+    padding:100px;
+    background-color:cornsilk;
+    border-style:groove;
+}
+button:hover{
+    background-color:lightcyan;
+    transform: rotate();
+}
+::placeholder{
+    color:indianred;
+}
