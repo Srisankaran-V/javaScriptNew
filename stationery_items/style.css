@@ -1,0 +1,23 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align:center;
+}
+input{
+    padding:10px;
+}
+button{
+    padding:10px;
+    margin-left:48px;
+}
+.container{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    background-color:bisque;
+    padding:100px;
+}
+#items{
+    padding:10px;
+}
