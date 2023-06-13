@@ -10,18 +10,11 @@ var total = 0;
 T_c_c.value = total;
 submit.addEventListener("click",bill_calculator);
 
-function bill_calculator(){
-    check(units.value)
-    // console.log("Hi")
-    // console.log(units.value)
-    T_c_c.value = total;
-    c_c.value = total;
-    net_amount.value = total-250;
-}
+
 
 function check(u){
     let units_char = 0
-    if(u > 0 && u <= 100){
+    if(u >= 0 && u <= 100){
         total = 0;
     }else if(u >= 101 && u <= 200){
         units_char = u*3.75;
@@ -36,4 +29,19 @@ function check(u){
         units_char = u*5;
         total = (400+(units_char)+50)-250;
     }
+}
+function bill_calculator(){
+    check(units.value)
+    // console.log("Hi")
+    // console.log(units.value)
+    T_c_c.value = total;
+    c_c.value = total;
+    if(total>=0 && total<=100){
+        net_amount.value = total;
+        
+    }
+    else{
+        net_amount.value=total-250;
+    }
+    
 }
