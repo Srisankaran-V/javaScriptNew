@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seller Market</title>
+  <link rel="stylesheet" href="new.css">
+</head>
+<body>
+<div id="displayProd"></div>
+  
+  <h1>Sellers Market</h1>
+  <div id="prodDetails"><br>
+    <label for="prodId">Product Id : <input type="text" id="prodId"></label><br><br>
+    <label for="prodName">Product Name : <input type="text" id="prodName"></label><br><br>
+    <label for="prodPrice">Product Price : <input type="number" id="prodPrice" min="0"></label><br><br>
+    <label for="prodDes">Product Description : <br><br><textarea id="prodDes" width="100px" height="100px"></textarea></label><br><br>
+  </div>
+  <div id="buttons">
+    <button id="add">Add new</button>
+    <button id="addBefore">Add Before</button>
+    <button id="remove">Remove</button>
+    <button id="update">Update</button><br><br>
+  </div>
+  <div id="imgDetails">
+    <label for="imgUpload">Product Image : <input type="file" id="imgUpload"></label><br><br>
+    <img id="previewImage" src="#" alt="Preview Image" style="display: none;">
+  </div>
+  <div id="addId">
+    <label for="addBef">Enter the product Id you want to add before : <input type="text" id="addBef" placeholder="Enter an id"></label>
+  </div>
+  
+
+  <script src="new.js"></script>  
+</body>
+</html>
