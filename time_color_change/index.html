@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CA5314 : Full Stack Laboratory </title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        li{
+            padding:10px;
+        }   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Code Challenge <span id="year">2023</span></h1>
+        <h2>MCA Association</h2>
+        <div id="time">
+        </div>
+        <ul>
+            <li>AI & Generative AI</li>
+            <li>CX & Digital Experience</li>
+            <li>Code Automation</li>
+            <li>Connected Product and Services</li>
+            <li>Data World and Cloud Computing</li>
+            <li>Quantum Computing</li>
+            <li>Robotics and Quality Engineering</li>
+        </ul>
+    </div>
+    <script>
+        let time = document.getElementById("time");
+        let li = document.querySelectorAll("li");
+
+        function colorchange(){
+            let color = "#"
+            let letters = "0123456789ABCDEF"
+            for(let n = 0;n < 6;n++){
+                color += letters[Math.floor(Math.random()*16)];
+            }
+            console.log(color);
+            return color;
+        }
+        function setcolor(){
+        document.getElementsByTagName("span")[0].style.color = colorchange();
+        }
+        function settime(){
+            time.style.color = colorchange();
+
+        }
+        function createtime(){
+            let today = new Date();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s= today.getSeconds();
+            time.innerHTML = h+":"+m+":"+s;
+            console.log(time);
+            setTimeout(createtime,1000);
+        }
+        createtime();
+        setInterval(setcolor,3000);
+        setInterval(settime,1000)
+        for(i = 0;i < 8;i++){
+            if(i < 3){
+                li[i].style.backgroundColor = "green";
+            }else if(i >= 3 && i < 5){
+                li[i].style.backgroundColor = "yellow";
+            }else{
+                li[i].style.backgroundColor = "red";
+            }
+        }
+    </script>
+</body>
+</html>
